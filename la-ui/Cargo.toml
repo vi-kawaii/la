@@ -1,0 +1,9 @@
+[package]
+name = "la-ui"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+la-core = { path = "../la-core" }
+bevy.workspace = true
+lab-app-shell.workspace = true

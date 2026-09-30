@@ -1,0 +1,8 @@
+[package]
+name = "la-core"
+version.workspace = true
+edition.workspace = true
+
+# Ядро обработки звука. Без UI-зависимостей.
+# Публичное API — для использования из la-ui и из других программ.
+[dependencies]
